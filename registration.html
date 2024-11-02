@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="registration.css">
+    <title>Edu Manager</title>
+    <script src="registration.js"></script>
+  </head>
+  <body>
+    <div class="page">
+        <header>
+            <img src="./img/eduLogo.png">
+            <nav>
+                <ul>
+                    <li class="menu"><a href="main.html">홈</a></li>
+                    <li class="menu"><a href="#">강의/스터디 신청</a></li>
+                    <li class="menu"><a href="studentMypage.html">마이 페이지</a></li>
+                    <li class="menu"><a href="">로그아웃</a></li>
+                </ul>
+            </nav>
+        </header>
+      <div class="subTitle">강의/스터디 신청하기</div>
+
+      <div id="tabBtn-container">
+      <div class="tab-container">
+        <div class="tabs on " onclick="openTab('Tab1')">
+            <div><img src="./img/class.svg" id="tab1Icon"></div>
+            <div>강의</div>
+        </div>
+        <div class="tabs" onclick="openTab('Tab2')">
+            <div><img src="./img/studyIcon.svg" id="tab2Icon"></div>
+            <div>스터디</div>
+        </div>
+    </div>
+    <div id="makeStudyBtn-container" ><button id="makeStudyBtn" onclick="window.location.href='study_make.html';"><img src="./img/plus.svg" id="plusIcon"> 스터디 만들기</button></div>
+</div>
+    <div class="hr-wrapper">
+        <hr id="registration_mainHr">
+        <hr id="registration_hr1">
+        <hr id="registration_hr2">
+      </div>
+    <div class="tab_wrap">
+      <div id="Tab1" class="tab on">
+        <div id="leaderRoom1" class="class">
+          <img src="./img/white.png" class="groupGallery">
+        </div>
+        <div id="leaderRoom2" class="class">
+          <img src="./img/white.png" class="groupGallery">
+          </div>
+          <div id="leaderRoom3" class="class">
+          <img src="./img/white.png" class="groupGallery">
+          </div>
+      </div>
+      <div id="Tab2" class="tab">
+        <div id="studyRoom1" class="studyGroup">
+            <img src="./img/white.png" class="groupGallery">
+          </div>
+          <div id="studyRoom2" class="studyGroup">
+            <img src="./img/white.png" class="groupGallery">
+            </div>
+            <div id="studyRoom3" class="studyGroup">
+            <img src="./img/white.png" class="groupGallery">
+      </div>
+  </body>
+  </html>
