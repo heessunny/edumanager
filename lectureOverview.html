@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="lectureOverview.css" />
+    <title>Edu Manager</title>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <img src="./img/eduLogo.png" />
+        <nav>
+          <ul>
+            <li class="menu"><a href="#">홈</a></li>
+            <li class="menu">
+              <a href="registration.html">강의/스터디 신청</a>
+            </li>
+            <li class="menu"><a href="studentMypage.html">마이 페이지</a></li>
+            <li class="menu"><a href="">로그아웃</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div id="body"> 
+        <div class="subTitle">강의 소개</div>
+        <div class="sectionContainer">
+        <div class="section1">
+            <div><img src="./img/white.png" id="lectureOverviewImg"></div>
+            <div class="overViewInfo">
+                <div class="overViewInfoText" id="lectureTeacherName">000 강사님</div>
+                <div class="overViewInfoText" id="lectureTeacherPhone"><img src="./img/phoneIcon.svg" class="infoIcon"/>000-0000-0000</div>
+                <div class="overViewInfoText" id="lectureTeacherRoom"><img src="./img/roomIcon.svg" class="infoIcon"/>000호</div>
+            </div>
+        </div>
+        <div class="section2">
+            <div id="lectureOverviewTitle">강의명</div>
+            <div id="lectureOverviewDescription">강의소개</div>
+
+            <div class="section3">
+                <div class="likeButtonContainer">
+                    <img src="./img/likeButton.svg" class="likeButton"/>
+                    <img src="./img/EmptylikeButton.svg" class="emptyLikeButton"/>
+                </div>
+                <div>
+                    <input type="button" class="applyButton" value="수강신청하기">
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="section4">
+        <div class="reviewIconContainer">
+        <img src="./img/reviewIcon.svg" class="reviewIcon"/>
+        <div class="reviewIconText">수강 후기</div>
+    </div>
+        <div class="reviewListContainer">
+            <div class="reviewContainer">
+                <img src="./img/profileImg.svg" class="reviewProfileImg"/>
+                <div class="reviewTextContainer">
+                    <div class="reviewUserName">OOO학생</div>
+                    <div class="reviewText">수강 후기</div>
+                </div>
+            </div>
+
+        </div>        
+    </div>
+      </div>
+  </body>
+</html>
