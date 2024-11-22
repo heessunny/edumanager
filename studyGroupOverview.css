@@ -10,6 +10,7 @@ a {
 .page {
     width: 1300px;
     margin: 0 auto;
+
 }
 
 header {
@@ -263,3 +264,4 @@ a{text-decoration:none}
     font-weight: 500;
     font-size: 20px;
 }
+
